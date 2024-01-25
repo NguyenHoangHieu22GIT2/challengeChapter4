@@ -1,5 +1,7 @@
 console.log("Hello world");
 
-function calculator() {}
+function calculator(operations) {
+  return operations();
+}
 
 function ConvertCToF() {}
